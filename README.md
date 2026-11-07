@@ -1,5 +1,9 @@
 # AE2S 应用气动 · Applied Pneumatics
 
+<p align="center">
+  <img src="docs/images/applied-pneumatics-banner.png" alt="Applied Pneumatics 原版横幅" width="92%">
+</p>
+
 **应用能源 2 超巨星（AE2S）× 气动工艺：重制版（PneumaticCraft: Repressurized）** 的附属模组，
 将压缩空气存储、稳压温控和亚马龙交易自动化接入 ME 网络。
 
@@ -110,6 +114,7 @@ python3 tools/package.py
 
 - 代码：Frostbite，**LGPL-3.0-or-later**；1.12.2 / AE2S 移植维护：yudream。
 - 美术资源：MHanHanBing 及上游贡献者，**CC BY-NC-SA 3.0**。
+- 首页横幅沿用上游原图，保存在本仓库；[图片来源与许可](docs/images/README.md)。
 - 便携元件侧面资源包含 Applied Energistics 2 与 MEGA Cells 的署名。
 
 详见 [LICENSE](LICENSE)、[NOTICE.md](NOTICE.md) 与 [upstream-lock.json](upstream-lock.json)。

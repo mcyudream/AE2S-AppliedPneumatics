@@ -10,4 +10,7 @@ Original UI textures are retained byte-for-byte. Style JSON only changes the res
 See upstream-lock.json for the exact original revision.
 
 Chinese project introduction adapted from https://github.com/FormlessDragon/AppliedPneumatics.
+README banner: original unmodified Applied Pneumatics artwork linked by that repository,
+https://i.imgur.com/ZUmdWWw.png, CC BY-NC-SA 3.0 under the upstream art/assets notice.
+Local copy and provenance: docs/images/applied-pneumatics-banner.png and docs/images/README.md.
 Project: https://github.com/mcyudream/AE2S-AppliedPneumatics

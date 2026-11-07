@@ -77,7 +77,7 @@ class Structure:
 
     def data(self):
         height = max(p[1] for p in self.blocks) + 1
-        root = {"DataVersion": 1343, "author": "yudream / Applied Pneumatics Legacy", "size": [self.size, height, self.size],
+        root = {"DataVersion": 1343, "author": "yudream / AE2S Applied Pneumatics", "size": [self.size, height, self.size],
                 "palette": self.palette, "blocks": list(self.blocks.values()), "entities": []}
         output = io.BytesIO()
         with gzip.GzipFile(fileobj=output, mode="wb", filename="", mtime=0) as compressed:
