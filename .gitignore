@@ -1,0 +1,10 @@
+.gradle/
+build/
+run/
+*.log
+tools/__pycache__/
+dist/
+verification/history/
+verification/**/*.log
+*.hprof
+.idea/

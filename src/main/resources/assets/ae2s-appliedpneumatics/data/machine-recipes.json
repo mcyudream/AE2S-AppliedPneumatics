@@ -1,0 +1,475 @@
+[
+  {
+    "source": "amadron/certus_quartz_crystal_to_emerald.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 16,
+        "item": "ae2:certus_quartz_crystal"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/certus_quartz_crystal_to_emerald",
+    "output": {
+      "resource": {
+        "count": 8,
+        "item": "minecraft:emerald"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_air_cell_shell.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 32,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_air_cell_shell",
+    "output": {
+      "resource": {
+        "count": 1,
+        "item": "ae2s-appliedpneumatics:air_cell_shell"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_blank_pattern.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 24,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_blank_pattern",
+    "output": {
+      "resource": {
+        "count": 1,
+        "item": "ae2:blank_pattern"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_certus_quartz_crystal.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 8,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_certus_quartz_crystal",
+    "output": {
+      "resource": {
+        "count": 8,
+        "item": "ae2:certus_quartz_crystal"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_fluid_cell_housing.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 32,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_fluid_cell_housing",
+    "output": {
+      "resource": {
+        "count": 1,
+        "item": "ae2:fluid_cell_housing"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_fluix_crystal.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 8,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_fluix_crystal",
+    "output": {
+      "resource": {
+        "count": 4,
+        "item": "ae2:fluix_crystal"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_item_cell_housing.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 32,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_item_cell_housing",
+    "output": {
+      "resource": {
+        "count": 1,
+        "item": "ae2:item_cell_housing"
+      }
+    }
+  },
+  {
+    "source": "amadron/emerald_to_sky_stone_block.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 10,
+        "item": "minecraft:emerald"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/emerald_to_sky_stone_block",
+    "output": {
+      "resource": {
+        "count": 16,
+        "item": "ae2:sky_stone_block"
+      }
+    }
+  },
+  {
+    "source": "amadron/fluix_crystal_to_emerald.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 16,
+        "item": "ae2:fluix_crystal"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/fluix_crystal_to_emerald",
+    "output": {
+      "resource": {
+        "count": 4,
+        "item": "minecraft:emerald"
+      }
+    }
+  },
+  {
+    "source": "amadron/singularity_to_emerald.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 1,
+        "item": "ae2:singularity"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/singularity_to_emerald",
+    "output": {
+      "resource": {
+        "count": 99,
+        "item": "minecraft:emerald"
+      }
+    }
+  },
+  {
+    "source": "amadron/sky_stone_block_to_emerald.json",
+    "type": "pneumaticcraft:amadron",
+    "input": {
+      "resource": {
+        "count": 32,
+        "item": "ae2:sky_stone_block"
+      }
+    },
+    "level": 0,
+    "offer_id": "ae2s-appliedpneumatics:amadron/sky_stone_block_to_emerald",
+    "output": {
+      "resource": {
+        "count": 10,
+        "item": "minecraft:emerald"
+      }
+    }
+  },
+  {
+    "source": "assembly/certus_quartz_crystal_to_calculation_processor_print.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:certus_quartz_crystal"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:printed_calculation_processor"
+    }
+  },
+  {
+    "source": "assembly/chipped_budding_quartz_to_flaw_budding_quartz.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:chipped_budding_quartz"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:flawed_budding_quartz"
+    }
+  },
+  {
+    "source": "assembly/damage_budding_quartz_to_chipped_budding_quartz.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:damaged_budding_quartz"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:chipped_budding_quartz"
+    }
+  },
+  {
+    "source": "assembly/diamond_to_engineering_processor_print.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "minecraft:diamond"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:printed_engineering_processor"
+    }
+  },
+  {
+    "source": "assembly/energy_cell_to_dense_energy_cell.json",
+    "type": "pneumaticcraft:assembly_drill",
+    "input": {
+      "count": 8,
+      "item": "ae2:energy_cell"
+    },
+    "program": "drill",
+    "result": {
+      "count": 1,
+      "item": "ae2:dense_energy_cell"
+    }
+  },
+  {
+    "source": "assembly/flaw_budding_quartz_to_flawless_budding_quartz.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 64,
+      "item": "ae2:flawed_budding_quartz"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:flawless_budding_quartz"
+    }
+  },
+  {
+    "source": "assembly/glass_cable_to_smart_cable.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 16,
+      "item": "ae2:fluix_glass_cable"
+    },
+    "program": "laser",
+    "result": {
+      "count": 16,
+      "item": "ae2:fluix_smart_cable"
+    }
+  },
+  {
+    "source": "assembly/gold_ingot_to_logic_processor_print.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "minecraft:gold_ingot"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:printed_logic_processor"
+    }
+  },
+  {
+    "source": "assembly/half_entropized_fluix_budding_to_mostly_entropized_fluix_budding.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:entro_budding_half"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:entro_budding_mostly"
+    }
+  },
+  {
+    "source": "assembly/hardly_entropized_fluix_budding_to_half_entropized_fluix_budding.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:entro_budding_hardly"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:entro_budding_half"
+    }
+  },
+  {
+    "source": "assembly/matter_ball_to_singularity.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 64,
+      "item": "ae2:matter_ball"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:singularity"
+    }
+  },
+  {
+    "source": "assembly/mostly_entropized_fluix_budding_to_fully_entropized_fluix_budding.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:entro_budding_mostly"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:entro_budding_fully"
+    }
+  },
+  {
+    "source": "assembly/not_so_mysterious_cube_to_mysterious_cube.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:not_so_mysterious_cube"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:mysterious_cube"
+    }
+  },
+  {
+    "source": "assembly/silicon_to_silicon_print.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "ae2:silicon"
+    },
+    "program": "laser",
+    "result": {
+      "count": 1,
+      "item": "ae2:printed_silicon"
+    }
+  },
+  {
+    "source": "assembly/smart_cable_to_smart_dense_cable.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 16,
+      "item": "ae2:fluix_smart_cable"
+    },
+    "program": "laser",
+    "result": {
+      "count": 8,
+      "item": "ae2:fluix_smart_dense_cable"
+    }
+  },
+  {
+    "source": "assembly/tnt_to_tiny_tnt.json",
+    "type": "pneumaticcraft:assembly_laser",
+    "input": {
+      "count": 1,
+      "item": "minecraft:tnt"
+    },
+    "program": "laser",
+    "result": {
+      "count": 8,
+      "item": "ae2:tiny_tnt"
+    }
+  },
+  {
+    "source": "cells/housing/air_cell_shell.json",
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "count": 2,
+        "item": "pneumaticcraft:pressure_tube"
+      },
+      {
+        "count": 3,
+        "item": "pneumaticcraft:pressure_chamber_glass"
+      },
+      {
+        "count": 2,
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      {
+        "count": 1,
+        "item": "pneumaticcraft:pressure_gauge"
+      }
+    ],
+    "pressure": 4.0,
+    "results": [
+      {
+        "count": 1,
+        "item": "ae2s-appliedpneumatics:air_cell_shell"
+      }
+    ]
+  },
+  {
+    "source": "cells/housing/mega_air_cell_shell.json",
+    "type": "pneumaticcraft:pressure_chamber",
+    "inputs": [
+      {
+        "count": 2,
+        "item": "pneumaticcraft:advanced_pressure_tube"
+      },
+      {
+        "count": 2,
+        "item": "pneumaticcraft:ingot_iron_compressed"
+      },
+      {
+        "count": 2,
+        "item": "pneumaticcraft:compressed_iron_gear"
+      },
+      {
+        "count": 1,
+        "item": "pneumaticcraft:printed_circuit_board"
+      },
+      {
+        "count": 1,
+        "item": "pneumaticcraft:network_component",
+        "data": 2
+      },
+      {
+        "count": 1,
+        "item": "ae2s-appliedpneumatics:air_cell_shell"
+      }
+    ],
+    "pressure": 4.95,
+    "results": [
+      {
+        "count": 1,
+        "item": "ae2s-appliedpneumatics:mega_air_cell_shell"
+      }
+    ]
+  }
+]

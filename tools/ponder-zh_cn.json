@@ -1,0 +1,21 @@
+{
+  "ae2s-appliedpneumatics.ponder.shared.air_power": "为 ME 网络供电并提供频道，将空气存储元件放入 ME 驱动器。",
+  "ae2s-appliedpneumatics.ponder.shared.air_import": "把输入总线朝向压缩机，导入压缩空气。总线的资源类型需启用空气。",
+  "ae2s-appliedpneumatics.ponder.shared.air_pressure": "把气压接口接入气动管道，打开界面设置目标气压（bar）。接口会与 ME 存储交换空气来稳压。",
+  "ae2s-appliedpneumatics.ponder.shared.air_safety": "元件装入安全卡可防止满载后损坏驱动器。真空卡在元件中销毁溢出空气，在气压接口中解锁负压。",
+  "ae2s-appliedpneumatics.ponder.shared.air_portable": "便携空气元件存满时为 20 bar。可在气动充气站或接口物品槽充放气，充气卡会为背包中的气动工具供气。",
+  "ae2s-appliedpneumatics.ponder.shared.air_p2p": "用压力管右键协调 ME P2P，再用 AE2S 存储卡绑定输入端和输出端。空气沿压差传输。",
+  "ae2s-appliedpneumatics.ponder.shared.heat_target": "把温控接口接在机器旁，用原版加减按钮设置目标摄氏温度。按住 Shift 可十倍调整。",
+  "ae2s-appliedpneumatics.ponder.shared.heat_cost": "准备 ME 库存中的空气与 AE 能量，温控会同时消耗两者。加速卡提高调节速度，容积卡提高热容。",
+  "ae2s-appliedpneumatics.ponder.shared.heat_p2p": "用烈焰棒协调 P2P，并用存储卡绑定，就能向远处机器传输热量。",
+  "ae2s-appliedpneumatics.ponder.shared.trade_station": "处理站需要供电、频道、物品/流体存储和合成 CPU。顶部保持露天，供无人机取货与送货。",
+  "ae2s-appliedpneumatics.ponder.shared.trade_link": "为无线终端充电，再按住潜行右键处理站绑定。打开终端可浏览与搜索服务器的真实亚马龙报价。",
+  "ae2s-appliedpneumatics.ponder.shared.trade_order": "右键交易卡片添加到购物篮，再点提交。付款从 ME 库存扣除，由气动工艺无人机取走付款并送回商品。",
+  "ae2s-appliedpneumatics.ponder.shared.trade_pattern": "把 AE2S 空白样板放入终端槽，选择不限量商品后点击箭头编码，再把生成的亚马龙样板放入处理站。",
+  "ae2s-appliedpneumatics.ponder.shared.trade_cpu": "在 AE2S 中请求合成交易产物。CPU 将材料交给处理站，处理站派出无人机并把到货送回同一 ME 网络。",
+  "ae2s-appliedpneumatics.ponder.tag.pneumatics": "应用气动",
+  "ae2s-appliedpneumatics.ponder.tag.pneumatics.description": "空气、温控与亚马龙的 AE2S 自动化。",
+  "ae2s-appliedpneumatics.ponder.air_network.header": "空气存储与稳压",
+  "ae2s-appliedpneumatics.ponder.temperature.header": "温控接口与热量传输",
+  "ae2s-appliedpneumatics.ponder.amadron.header": "亚马龙交易自动化"
+}

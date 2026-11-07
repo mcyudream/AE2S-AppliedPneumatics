@@ -1,0 +1,73 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2s-appliedpneumatics:textures/gui/me_temperature_interface_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 207]
+  },
+  "slots": {
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2s-appliedpneumatics.me_temperature_interface" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "temperature": {
+      "position": { "left": 90, "top": 22 },
+      "align": "CENTER"
+    },
+    "heat_cap": {
+      "position": { "left": 90, "top": 38 },
+      "align": "CENTER"
+    },
+    "expected_temperature": {
+      "position": { "left": 90, "top": 82 },
+      "align": "CENTER"
+    },
+    "expected_temperature_text": {
+      "position": { "left": 90, "top": 60 },
+      "align": "CENTER"
+    },
+    "expected_temperature_change_mult_text": {
+      "position": { "left": 90, "top": 100 },
+      "align": "CENTER"
+    }
+  },
+  "widgets": {
+    "add_button_10": {
+      "right": 34,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "add_button_1": {
+      "right": 68,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_button_1": {
+      "left": 42,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_button_10": {
+      "left": 8,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    }
+  }
+}

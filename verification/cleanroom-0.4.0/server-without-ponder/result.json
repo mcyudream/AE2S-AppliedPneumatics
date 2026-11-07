@@ -1,0 +1,57 @@
+{
+  "cleanroom": "0.4.0",
+  "side": "server",
+  "exit": 0,
+  "loader_version_seen": true,
+  "server_ready": true,
+  "timed_out": false,
+  "gameplay_report": {
+    "result": "PASS",
+    "cleanroom": "0.4.0",
+    "java": "25.0.5",
+    "ae2s": "1.1.0+a47dfe029",
+    "pneumaticcraft": "1.12.2-0.11.15-398",
+    "ponder": false,
+    "phase": 8,
+    "checks": [
+      "Previous saved air resource and pressure tile IDs resolve to the renamed mod",
+      "All 20 cells: long capacity, 256M pressure, nonmutating simulation, exact monitor deltas, vacuum and key serialization",
+      "Original PNC charging station continues charging a 16M portable cell beyond 2^31 mL",
+      "Wireless energy-card insertion and removal update real battery capacity",
+      "Real native import/export/storage bus operations conserve exact air amounts",
+      "Real native import/export/storage buses, pressure/temperature interfaces, both P2P tunnels and pressure upgrade persistence",
+      "Actual PNC collection and delivery drones fulfill ME-backed manual Amadron trade and return output",
+      "Native AE2S crafting planner and CPU execute Amadron patterns through real drones with exact payment and completed output",
+      "Fluid payment and delivery use real PNC drones and return to native ME fluid storage",
+      "Whole-cart material validation is atomic and station crafting priority survives NBT persistence"
+    ],
+    "pressure": {
+      "actual": 2.0,
+      "target": 2.0,
+      "active": true
+    },
+    "station": "{sky:1b,kind:\"amadron\",queued:0,active:1b}",
+    "buffer": "{Size:18,Items:[]}",
+    "drones": [
+      {
+        "dead": false,
+        "x": 1.2,
+        "y": 81.0,
+        "z": 4.2,
+        "id": 13213
+      }
+    ],
+    "fixture": {
+      "ticks": 1975,
+      "ready_nodes": 14,
+      "power_block": "ae2:creative_energy_cell",
+      "controller_block": "ae2:controller",
+      "active_nodes": 14,
+      "power_ready": true,
+      "power_active": true,
+      "power_is_current_tile": true,
+      "phase_ticks": 507
+    }
+  },
+  "result": "FUNCTIONAL_PASS"
+}

@@ -1,0 +1,21 @@
+{
+  "type": "ae2:storage_cell_disassembly",
+  "cell": "ae2s-appliedpneumatics:air_cell_4m",
+  "cell_disassembly_items": [
+    {
+      "item": "ae2s-appliedpneumatics:mega_air_cell_shell"
+    },
+    {
+      "item": "ae2s-appliedpneumatics:air_cell_1m"
+    },
+    {
+      "item": "ae2s-appliedpneumatics:air_cell_1m"
+    },
+    {
+      "item": "ae2s-appliedpneumatics:air_cell_1m"
+    },
+    {
+      "item": "ae2s-appliedpneumatics:air_cell_1m"
+    }
+  ]
+}

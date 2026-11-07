@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/Frostbite-time/AppliedPneumatics",
+  "branch": "1.21.1",
+  "commit": "29e33cbf5df5aa5b6c83c212338b3f7635cd0742",
+  "version": "1.0.9",
+  "identity": "https://www.mcmod.cn/class/22280.html",
+  "code_license": "LGPL-3.0-or-later",
+  "assets_license": "CC-BY-NC-SA-3.0",
+  "authors": [
+    "Frostbite",
+    "MHanHanBing"
+  ],
+  "target": {
+    "minecraft": "1.12.2",
+    "cleanroom": "0.4.0",
+    "java": 25,
+    "ae2": "Supergiant",
+    "modid": "ae2s-appliedpneumatics",
+    "repository": "https://github.com/mcyudream/AE2S-AppliedPneumatics"
+  },
+  "readme_reference": "https://github.com/FormlessDragon/AppliedPneumatics"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "ae2:storage_cell_disassembly",
+  "cell": "ae2s-appliedpneumatics:portable_air_cell_4m",
+  "cell_disassembly_items": [
+    {
+      "item": "ae2s-appliedpneumatics:air_cell_4m"
+    },
+    {
+      "item": "ae2:chest"
+    },
+    {
+      "item": "ae2:energy_cell"
+    }
+  ]
+}

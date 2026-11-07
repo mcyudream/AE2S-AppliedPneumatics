@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "pneumaticcraft:printed_circuit_board"
+    },
+    "B": {
+      "item": "pneumaticcraft:vacuum_pump"
+    },
+    "C": {
+      "item": "ae2:advanced_card"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "count": 1,
+    "item": "ae2s-appliedpneumatics:vacuum_card"
+  }
+}

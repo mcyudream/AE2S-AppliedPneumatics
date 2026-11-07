@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "ae2s-appliedpneumatics",
+    "name": "AE2S Applied Pneumatics",
+    "version": "${version}",
+    "mcversion": "1.12.2",
+    "description": "应用能源 2 超巨星 × 气动工艺：压缩空气存储、稳压温控、P2P 传输与亚马龙交易自动化。",
+    "authorList": [
+      "Frostbite",
+      "MHanHanBing",
+      "yudream (port)"
+    ],
+    "url": "https://github.com/mcyudream/AE2S-AppliedPneumatics"
+  }
+]

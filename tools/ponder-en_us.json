@@ -1,0 +1,18 @@
+{
+  "ae2s-appliedpneumatics.ponder.shared.air_power": "Power the ME network and provide channels. Put an air storage cell in the drive.",
+  "ae2s-appliedpneumatics.ponder.shared.air_import": "An import bus facing a compressor imports compressed air. Select the air resource type in the bus.",
+  "ae2s-appliedpneumatics.ponder.shared.air_pressure": "Connect the pressure interface to tubes and set its target in bar. It exchanges air with ME storage to hold that pressure.",
+  "ae2s-appliedpneumatics.ponder.shared.air_safety": "Fit security cards to protect full cells. Vacuum cards void overflow in cells and unlock negative pressure in interfaces.",
+  "ae2s-appliedpneumatics.ponder.shared.air_portable": "Portable cells are 20 bar when full. Charge them in a PNC charging station or the interface's item slot; a charging card supplies carried pneumatic tools.",
+  "ae2s-appliedpneumatics.ponder.shared.air_p2p": "Attune an ME P2P with a pressure tube, then link its input and outputs with an AE2S memory card. Air follows pressure differences.",
+  "ae2s-appliedpneumatics.ponder.shared.heat_target": "Connect the temperature interface to your machine. Use the original +/- buttons to set the target in Celsius; hold Shift for tenfold steps.",
+  "ae2s-appliedpneumatics.ponder.shared.heat_cost": "Supply stored air and AE energy. Temperature control consumes both; speed cards increase the rate and volume cards increase heat capacity.",
+  "ae2s-appliedpneumatics.ponder.shared.heat_p2p": "Attune a P2P with a blaze rod and link it with a memory card to distribute heat to distant machines.",
+  "ae2s-appliedpneumatics.ponder.shared.trade_station": "Connect the processing station to a powered ME network with item/fluid storage and a crafting CPU. Leave the sky above it clear for drones.",
+  "ae2s-appliedpneumatics.ponder.shared.trade_link": "Charge the wireless terminal, then sneak-use it on the station to bind it. Open it to browse and search the server's real Amadron offers.",
+  "ae2s-appliedpneumatics.ponder.shared.trade_order": "Right-click offer cards to add trades to the basket, then press Submit. Payment comes from ME storage; PNC drones collect and deliver it.",
+  "ae2s-appliedpneumatics.ponder.shared.trade_pattern": "Put AE2S blank patterns into the terminal slot. Select an unlimited offer and click the arrow to encode it, then put that pattern in the station.",
+  "ae2s-appliedpneumatics.ponder.shared.trade_cpu": "Request the traded output through AE2S crafting. The station offers its patterns to the CPU, orders the trade, and returns deliveries to the same ME network.",
+  "ae2s-appliedpneumatics.ponder.tag.pneumatics": "Applied Pneumatics",
+  "ae2s-appliedpneumatics.ponder.tag.pneumatics.description": "Air, temperature and Amadron automation with AE2S."
+}

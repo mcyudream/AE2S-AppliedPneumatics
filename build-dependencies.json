@@ -1,0 +1,20 @@
+{
+  "purpose": "Pinned AE2S build and verification dependencies; mirrored because the upstream dev release is rolling.",
+  "repository": "https://github.com/FormlessDragon/Applied-Energistics-2-Supergiant",
+  "commit": "a47dfe029305eead8750fbaa7c79a538e1a481ba",
+  "release": "https://github.com/mcyudream/AE2S-AppliedPneumatics/releases/tag/build-dependencies",
+  "files": {
+    "AppliedEnergistics2-Supergiant-1.1.0+a47dfe029-dev.jar": {
+      "sha256": "c7fc3c90220dd1d6eaed2ae51cfb45c2ad95b99f65af4d60e1f579b168330ce5",
+      "url": "https://github.com/mcyudream/AE2S-AppliedPneumatics/releases/download/build-dependencies/AppliedEnergistics2-Supergiant-1.1.0+a47dfe029-dev.jar"
+    },
+    "AppliedEnergistics2-Supergiant-1.1.0+a47dfe029-sources.zip": {
+      "sha256": "1edfdf6e7ee9a0cc85725a7a0f11e0784d81904c413fa865129ac6d5f54593c3",
+      "url": "https://github.com/mcyudream/AE2S-AppliedPneumatics/releases/download/build-dependencies/AppliedEnergistics2-Supergiant-1.1.0+a47dfe029-sources.zip"
+    },
+    "AppliedEnergistics2-Supergiant-1.1.0+a47dfe029.jar": {
+      "sha256": "7d82003578a820bf3dce121d98fd08911c8e5dcbe558e6158f6cc18558e98233",
+      "url": "https://github.com/mcyudream/AE2S-AppliedPneumatics/releases/download/build-dependencies/AppliedEnergistics2-Supergiant-1.1.0+a47dfe029.jar"
+    }
+  }
+}

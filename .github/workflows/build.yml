@@ -1,0 +1,28 @@
+name: Build
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Compile, verify resources, and remap installation jars
+        run: ./gradlew --no-daemon build reobfRuntimeHarnessJar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: AE2S-AppliedPneumatics
+          path: |
+            build/libs/AE2S-AppliedPneumatics-*.jar
+            !build/libs/*-mcp.jar

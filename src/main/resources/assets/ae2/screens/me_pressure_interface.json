@@ -1,0 +1,74 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2s-appliedpneumatics:textures/gui/me_pressure_interface_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 207]
+  },
+  "slots": {
+    "MACHINE_INPUT": { "left": 152, "top": 26 },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2s-appliedpneumatics.me_pressure_interface_block" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "air_amount": {
+      "position": { "left": 80, "top": 22 },
+      "align": "CENTER"
+    },
+    "max_pressure": {
+      "position": { "left": 80, "top": 38 },
+      "align": "CENTER"
+    },
+    "current_pressure": {
+      "position": { "left": 90, "top": 82 },
+      "align": "CENTER"
+    },
+    "expected_pressure_text": {
+      "position": { "left": 90, "top": 60 },
+      "align": "CENTER"
+    },
+    "expected_pressure_change_mult_text": {
+      "position": { "left": 90, "top": 100 },
+      "align": "CENTER"
+    }
+  },
+  "widgets": {
+    "add_button_1": {
+      "right": 34,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "add_button_01": {
+      "right": 68,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_button_01": {
+      "left": 42,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    },
+    "reduce_button_1": {
+      "left": 8,
+      "top": 76,
+      "width": 26,
+      "height": 20
+    }
+  }
+}

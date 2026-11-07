@@ -1,0 +1,50 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "common/common.json",
+    "common/player_inventory.json",
+    "common/toolbox.json"
+  ],
+  "background": {
+    "texture": "ae2s-appliedpneumatics:textures/gui/me_amadron_process_station_menu.png",
+    "textureWidth": 256,
+    "textureHeight": 256,
+    "srcRect": [0, 0, 176, 215]
+  },
+  "slots": {
+    "ENCODED_PATTERN": { "left": 8, "top": 19, "grid": "HORIZONTAL" },
+    "MACHINE_INPUT": { "left": 10, "top": 57, "grid": "BREAK_AFTER_3COLS" },
+    "MACHINE_OUTPUT": { "left": 114, "top": 57, "grid": "BREAK_AFTER_3COLS" },
+    "UPGRADE": {
+      "right": 0,
+      "top": 0,
+      "grid": "VERTICAL"
+    }
+  },
+  "text": {
+    "title": {
+      "text": { "translate": "block.ae2s-appliedpneumatics.me_amadron_process_station" },
+      "position": { "left": 8, "top": 6 }
+    },
+    "job_amount": {
+      "position": {
+        "left": 8,
+        "top": 39
+      }
+    }
+  },
+  "widgets": {
+    "openPriority": {
+      "left": 152,
+      "top": -5,
+      "width": 20,
+      "height": 20
+    },
+    "cancel_jobs_button": {
+      "right": 55,
+      "top": 37,
+      "width": 48,
+      "height": 14
+    }
+  }
+}

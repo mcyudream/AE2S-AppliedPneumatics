@@ -1,0 +1,22 @@
+{
+  "cleanroom": "0.4.0",
+  "artifact_sha256": "b0814d9f10e09fce0ccb3b789c9080db488b8193cf748501571128a5e876e6db",
+  "scenarios": {
+    "server-with-ponder": {
+      "result": "FUNCTIONAL_PASS",
+      "checks": 10
+    },
+    "server-without-ponder": {
+      "result": "FUNCTIONAL_PASS",
+      "checks": 10
+    },
+    "client-without-ponder": {
+      "result": "FUNCTIONAL_PASS",
+      "checks": 31
+    },
+    "client-with-ponder": {
+      "result": "FUNCTIONAL_PASS",
+      "checks": 37
+    }
+  }
+}
