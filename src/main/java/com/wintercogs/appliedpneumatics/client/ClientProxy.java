@@ -21,9 +21,19 @@ import net.minecraftforge.fml.relauncher.Side;
 @Mod.EventBusSubscriber(modid=AppliedPneumatics.MODID,value=Side.CLIENT)
 public final class ClientProxy extends CommonProxy {
     @SubscribeEvent public static void models(ModelRegistryEvent event){
-        for(var item:APContent.ITEMS)ModelLoader.setCustomModelResourceLocation(item,0,new ModelResourceLocation(item.getRegistryName(),"inventory"));
+        for(var item:APContent.ITEMS){
+            var current=new ModelResourceLocation(item.getRegistryName(),"inventory");
+            var previous=new ModelResourceLocation(new ResourceLocation(AppliedPneumatics.PREVIOUS_RESOURCE_NAMESPACE,item.getRegistryName().getPath()),"inventory");
+            ModelLoader.setCustomModelResourceLocation(item,0,previous);
+            net.minecraft.client.renderer.block.model.ModelBakery.registerItemVariants(item,current);
+        }
+        for(var block:APContent.BLOCKS)ModelLoader.setCustomStateMapper(block,new net.minecraft.client.renderer.block.statemap.StateMapperBase(){
+            @Override protected ModelResourceLocation getModelResourceLocation(net.minecraft.block.state.IBlockState state){
+                return new ModelResourceLocation(APContent.renderId(block.getRegistryName().getPath()),getPropertyString(state.getProperties()));
+            }
+        });
         for(int i=0;i<APContent.TIERS.length;i++){
-            var model=APContent.id("block/drive/cells/air_cell_"+APContent.TIERS[i]);
+            var model=APContent.renderId("block/drive/cells/air_cell_"+APContent.TIERS[i]);
             StorageCellModels.registerModel(APContent.CELLS.get(i),model);StorageCellModels.registerModel(APContent.PORTABLE_CELLS.get(i),model);
         }
     }
@@ -41,7 +51,7 @@ public final class ClientProxy extends CommonProxy {
             net.minecraftforge.fml.common.event.FMLInterModComms.sendMessage("ponder-legacy","register_ponder_plugin","com.wintercogs.appliedpneumatics.compat.ponder.AppliedPneumaticsPonderPlugin");
         AEKeyRendering.register(AirKeyType.INSTANCE,AirKey.class,new AEKeyRenderHandler<AirKey>(){
             @Override public void drawInGui(Minecraft mc,int x,int y,AirKey key){
-                GlStateManager.color(1,1,1,1);mc.getTextureManager().bindTexture(APContent.id("textures/item/air_cell_shell.png"));
+                GlStateManager.color(1,1,1,1);mc.getTextureManager().bindTexture(APContent.renderId("textures/item/air_cell_shell.png"));
                 net.minecraft.client.gui.Gui.drawModalRectWithCustomSizedTexture(x,y,0,0,16,16,16,16);
             }
             @Override public void drawOnBlockFace(AirKey key,float scale,int light,World world){

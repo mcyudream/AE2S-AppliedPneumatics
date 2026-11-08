@@ -34,7 +34,7 @@ public final class ClientVerification {
     private CompletableFuture<Void> pending;
     private int phase,ticks,waitUntil;
     private String capture;
-    private boolean done,joined;
+    private boolean done,joined,modelsChecked;
     private long beforePayment,beforeOutput;
     private int beforeTerminalHeight;
     private BlockPos delayedOpen;
@@ -91,8 +91,13 @@ public final class ClientVerification {
             if(pending!=null){if(!pending.isDone())return;pending.join();pending=null;}
             if(lastLoggedPhase!=phase){lastLoggedPhase=phase;System.out.println("AP client acceptance phase="+phase+" screen="+(mc.currentScreen==null?"null":mc.currentScreen.getClass().getSimpleName()));}
             switch(phase){
+                case -1->{
+                    if(Boolean.getBoolean("apneumatics.modelsOnly")){RuntimeVerification.INSTANCE.write("PASS",null);done=true;mc.shutdown();return;}
+                    mc.displayGuiScreen(new GuiMainMenu());phase=0;
+                }
                 case 0->{
                     if(!(mc.currentScreen instanceof GuiMainMenu))return;
+                    if(!modelsChecked){ModelVerification.verify("initial-load");modelsChecked=true;mc.displayGuiScreen(ModelVerification.catalog());capture="all-item-textures.png";phase=-1;return;}
                     mc.gameSettings.pauseOnLostFocus=false;mc.gameSettings.renderDistanceChunks=3;mc.gameSettings.guiScale=2;mc.gameSettings.limitFramerate=30;
                     mc.gameSettings.setSoundLevel(net.minecraft.util.SoundCategory.MASTER,0);mc.getTutorial().setStep(net.minecraft.client.tutorial.TutorialSteps.NONE);
                     var settings=new WorldSettings(2718,GameType.CREATIVE,false,false,WorldType.FLAT);settings.setGeneratorOptions("3;minecraft:bedrock,2*minecraft:dirt,minecraft:grass;1;");settings.enableCommands();
@@ -106,7 +111,7 @@ public final class ClientVerification {
                 }
                 case 2->{if(!(mc.currentScreen instanceof MEPressureInterfaceGUI)||!"pressure".equals(menu().state.getString("kind")))return;click(155,85,0);click(121,85,0);pause();}
                 case 3->{require(Math.abs(menu().state.getDouble("target")-3.1)<.0001,"Original pressure buttons did not synchronize 3.1 bar");capture="pressure-en_us.png";checked("Original pressure UI: +1/+0.1 buttons, live air/volume/pressure, server state");phase++;}
-                case 4->{language("zh_cn");verifyNames("zh_cn");require(!net.minecraft.client.resources.I18n.format("menu.label.ae2s-appliedpneumatics.me_pressure_interface.expected_pressure_text").contains("ae2s-appliedpneumatics"),"Chinese original GUI translation missing");capture="pressure-zh_cn.png";phase++;}
+                case 4->{language("zh_cn");verifyNames("zh_cn");ModelVerification.verify("resource-reload");require(!net.minecraft.client.resources.I18n.format("menu.label.ae2s-appliedpneumatics.me_pressure_interface.expected_pressure_text").contains("ae2s-appliedpneumatics"),"Chinese original GUI translation missing");capture="pressure-zh_cn.png";phase++;}
                 case 5->{mc.player.closeScreen();open(RuntimeVerification.HEAT);pause();}
                 case 6->{if(!(mc.currentScreen instanceof METemperatureInterfaceGUI)||!"temperature".equals(menu().state.getString("kind")))return;click(155,85,0);click(121,85,0);pause();}
                 case 7->{require(menu().state.getDouble("target")==316,"Original temperature increment buttons failed");capture="temperature-zh_cn.png";checked("Original temperature UI: Celsius display, +10/+1 controls, Kelvin backend synchronization");phase++;}

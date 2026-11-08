@@ -13,7 +13,7 @@ import net.minecraft.world.IBlockAccess;
 import java.util.*;
 
 public final class AirP2PTunnelPart extends P2PTunnelPart<AirP2PTunnelPart> {
-    private static final P2PModels MODELS = new P2PModels(new ResourceLocation("ae2s-appliedpneumatics", "part/p2p/p2p_tunnel_air"));
+    private static final P2PModels MODELS = new P2PModels(com.wintercogs.appliedpneumatics.common.init.APContent.renderId("part/p2p/p2p_tunnel_air"));
     private boolean querying;
     private final IAirHandler input = new Input();
     private final IAirHandler output = new VirtualAirHandler() {

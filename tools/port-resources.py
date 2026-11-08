@@ -2,6 +2,7 @@
 """Reproduce recipes, translations and original UI using the pinned upstream checkout."""
 import hashlib
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -41,7 +42,9 @@ def main():
     screens = ROOT / 'src/main/resources/assets/ae2/screens'
     shutil.copytree(UPSTREAM / 'src/main/resources/assets/ae2/screens', screens, dirs_exist_ok=True)
     for path in screens.rglob('*.json'):
-        path.write_text(namespace(path.read_text()))
+        text = namespace(path.read_text())
+        text = re.sub(r'("texture"\s*:\s*")' + MODID + ':', r'\1' + SOURCE_NAMESPACE + ':', text)
+        path.write_text(text)
     recipes = UPSTREAM / 'src/generated/resources/data/appliedpneumatics/recipe'
     machine = []
     for path in sorted(recipes.rglob('*.json')):

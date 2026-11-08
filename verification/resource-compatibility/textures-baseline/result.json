@@ -1,0 +1,21 @@
+{
+  "cleanroom": "0.4.0",
+  "side": "client",
+  "exit": 0,
+  "loader_version_seen": true,
+  "server_ready": false,
+  "timed_out": false,
+  "gameplay_report": {
+    "result": "PASS",
+    "cleanroom": "0.4.0",
+    "java": "25.0.5",
+    "ae2s": "1.1.0+a47dfe029",
+    "pneumaticcraft": "1.12.2-0.11.15-398",
+    "ponder": false,
+    "phase": 0,
+    "checks": [
+      "Actual baked models and atlas sprites: all 35 items, 12 block states and 10 drive cell models after initial-load"
+    ]
+  },
+  "result": "FUNCTIONAL_PASS"
+}

@@ -14,6 +14,8 @@
     "ponder": false,
     "phase": 8,
     "checks": [
+      "Actual baked models and atlas sprites: 35 items, 12 block states, 10 drive cells, 2 P2P models and 70 old/new resource aliases after initial-load",
+      "Rendered all-item-textures.png without OpenGL errors",
       "Previous saved air resource and pressure tile IDs resolve to the renamed mod",
       "All 20 cells: long capacity, 256M pressure, nonmutating simulation, exact monitor deltas, vacuum and key serialization",
       "Original PNC charging station continues charging a 16M portable cell beyond 2^31 mL",
@@ -29,6 +31,7 @@
       "Original pressure UI: +1/+0.1 buttons, live air/volume/pressure, server state",
       "Rendered pressure-en_us.png without OpenGL errors",
       "All 35 registered items/blocks have exact translated display names without .name suffix in zh_cn",
+      "Actual baked models and atlas sprites: 35 items, 12 block states, 10 drive cells, 2 P2P models and 70 old/new resource aliases after resource-reload",
       "Rendered pressure-zh_cn.png without OpenGL errors",
       "Original temperature UI: Celsius display, +10/+1 controls, Kelvin backend synchronization",
       "Rendered temperature-zh_cn.png without OpenGL errors",
@@ -47,30 +50,30 @@
       "Rendered portable-256m-zh_cn.png without OpenGL errors"
     ],
     "pressure": {
-      "actual": 3.1,
+      "active": true,
       "target": 3.1,
-      "active": true
+      "actual": 3.1
     },
     "station": "{sky:1b,kind:\"amadron\",queued:0,active:1b}",
     "buffer": "{Size:18,Items:[]}",
     "drones": [
       {
-        "x": 0.5,
-        "y": 27.529999999999994,
+        "id": 128544,
         "z": 4.5,
-        "id": 125114,
+        "y": 29.53000000000004,
+        "x": 0.5,
         "dead": false
       }
     ],
     "fixture": {
-      "ready_nodes": 14,
-      "power_block": "ae2:creative_energy_cell",
-      "controller_block": "ae2:controller",
-      "active_nodes": 14,
-      "power_ready": true,
-      "power_active": true,
-      "power_is_current_tile": true,
       "phase_ticks": 400,
+      "power_is_current_tile": true,
+      "power_active": true,
+      "power_ready": true,
+      "active_nodes": 14,
+      "controller_block": "ae2:controller",
+      "power_block": "ae2:creative_energy_cell",
+      "ready_nodes": 14,
       "ticks": 1575
     }
   },

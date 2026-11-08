@@ -24,7 +24,7 @@ public final class AE2TinyButton extends AE2Button implements ITooltip {
         GlStateManager.color(1,1,1,1);GlStateManager.enableBlend();GlStateManager.enableDepth();
         if(!enabled)renderButtonBackground(x,y,width,height,false,false);
         else{
-            var texture=Blitter.texture(APContent.id("textures/gui/sprites/ae_tiny_button"+(hovered?"_highlighted":"")+".png"),89,18);
+            var texture=Blitter.texture(APContent.renderId("textures/gui/sprites/ae_tiny_button"+(hovered?"_highlighted":"")+".png"),89,18);
             int border=hovered?3:4;
             int[] sourceX={0,border,89-border},sourceY={0,border,18-border},sourceW={border,89-2*border,border},sourceH={border,18-2*border,border};
             int[] destX={x,x+border,x+width-border},destY={y,y+border,y+height-border},destW={border,width-2*border,border},destH={border,height-2*border,border};

@@ -1,0 +1,396 @@
+{
+  "drive_cells": {
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_1k": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_4k": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_16k": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_64k": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_256k": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_1m": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_4m": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_16m": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_64m": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    },
+    "ae2s-appliedpneumatics:block/drive/cells/air_cell_256m": {
+      "quads": 3,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/drive/drive_cells"
+      ]
+    }
+  },
+  "items": {
+    "ae2s-appliedpneumatics:me_pressure_interface_block": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_pressure_interface_block"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_temperature_interface": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_temperature_interface/room_temperature"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_process_station": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_extended_process_station": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_extended_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_shell": {
+      "quads": 32,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_shell"
+      ]
+    },
+    "ae2s-appliedpneumatics:mega_air_cell_shell": {
+      "quads": 32,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/mega_air_cell_shell"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_1k": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_1k",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_1k": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_air_housing",
+        "ae2s-appliedpneumatics:item/portable_cell_side_1k"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_4k": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_4k",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_4k": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_air_housing",
+        "ae2s-appliedpneumatics:item/portable_cell_side_4k"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_16k": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_16k",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_16k": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_air_housing",
+        "ae2s-appliedpneumatics:item/portable_cell_side_16k"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_64k": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_64k",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_64k": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_air_housing",
+        "ae2s-appliedpneumatics:item/portable_cell_side_64k"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_256k": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_256k",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_256k": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_air_housing",
+        "ae2s-appliedpneumatics:item/portable_cell_side_256k"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_1m": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_1m",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_1m": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_side_1m",
+        "ae2s-appliedpneumatics:item/portable_mega_cell_air_housing"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_4m": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_4m",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_4m": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_side_4m",
+        "ae2s-appliedpneumatics:item/portable_mega_cell_air_housing"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_16m": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_16m",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_16m": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_side_16m",
+        "ae2s-appliedpneumatics:item/portable_mega_cell_air_housing"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_64m": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_64m",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_64m": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_side_64m",
+        "ae2s-appliedpneumatics:item/portable_mega_cell_air_housing"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_cell_256m": {
+      "quads": 38,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/air_cell_256m",
+        "ae2s-appliedpneumatics:item/led/storage_cell_led"
+      ]
+    },
+    "ae2s-appliedpneumatics:portable_air_cell_256m": {
+      "quads": 110,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/led/portable_cell_led",
+        "ae2s-appliedpneumatics:item/led/portable_cell_screen",
+        "ae2s-appliedpneumatics:item/portable_cell_side_256m",
+        "ae2s-appliedpneumatics:item/portable_mega_cell_air_housing"
+      ]
+    },
+    "ae2s-appliedpneumatics:volume_card": {
+      "quads": 16,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/volume_card"
+      ]
+    },
+    "ae2s-appliedpneumatics:security_card": {
+      "quads": 16,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/security_card"
+      ]
+    },
+    "ae2s-appliedpneumatics:vacuum_card": {
+      "quads": 16,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/vacuum_card"
+      ]
+    },
+    "ae2s-appliedpneumatics:charging_card": {
+      "quads": 16,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/charging_card"
+      ]
+    },
+    "ae2s-appliedpneumatics:air_p2p_tunel": {
+      "quads": 25,
+      "sprites": [
+        "ae2:part/p2p_tunnel_back",
+        "ae2:part/p2p_tunnel_front",
+        "ae2:part/p2p_tunnel_sides",
+        "ae2s-appliedpneumatics:part/p2p_tunnel_air"
+      ]
+    },
+    "ae2s-appliedpneumatics:heat_p2p_tunel": {
+      "quads": 25,
+      "sprites": [
+        "ae2:part/p2p_tunnel_back",
+        "ae2:part/p2p_tunnel_front",
+        "ae2:part/p2p_tunnel_sides",
+        "ae2s-appliedpneumatics:part/p2p_tunnel_heat"
+      ]
+    },
+    "ae2s-appliedpneumatics:amadron_wireless_terminal": {
+      "quads": 13,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/amadron_wireless_terminal"
+      ]
+    },
+    "ae2s-appliedpneumatics:amadron_pattern": {
+      "quads": 32,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/amadron_pattern"
+      ]
+    },
+    "ae2s-appliedpneumatics:amadron_process_upgrade": {
+      "quads": 14,
+      "sprites": [
+        "ae2s-appliedpneumatics:item/amadron_process_upgrade"
+      ]
+    }
+  },
+  "blocks": {
+    "ae2s-appliedpneumatics:me_pressure_interface_block[temperature\u003d0]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_pressure_interface_block"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_pressure_interface_block[temperature\u003d1]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_pressure_interface_block"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_pressure_interface_block[temperature\u003d2]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_pressure_interface_block"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_temperature_interface[temperature\u003d0]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_temperature_interface/room_temperature"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_temperature_interface[temperature\u003d1]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_temperature_interface/low_temperature"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_temperature_interface[temperature\u003d2]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_temperature_interface/high_temperature"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_process_station[temperature\u003d0]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_process_station[temperature\u003d1]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_process_station[temperature\u003d2]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_extended_process_station[temperature\u003d0]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_extended_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_extended_process_station[temperature\u003d1]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_extended_process_station"
+      ]
+    },
+    "ae2s-appliedpneumatics:me_amadron_extended_process_station[temperature\u003d2]": {
+      "quads": 6,
+      "sprites": [
+        "ae2s-appliedpneumatics:block/me_amadron_extended_process_station"
+      ]
+    }
+  }
+}

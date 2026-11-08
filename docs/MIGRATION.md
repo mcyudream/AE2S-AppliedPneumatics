@@ -1,7 +1,7 @@
 # Applied Pneumatics 1.0.9 → 1.12.2
 
 固定上游 `29e33cbf5df5aa5b6c83c212338b3f7635cd0742`（1.21.1 分支）。
-Mod ID 与资源命名空间统一为 `ae2s-appliedpneumatics`；保留 35 个方块/物品的路径与原始资源署名。
+Mod ID 为 `ae2s-appliedpneumatics`；保留 35 个方块/物品的路径与原始资源署名。
 旧命名空间 `appliedpneumatics` 的方块/物品通过缺失映射迁移；机器标签与空气资源类型提供读取兼容。
 代码沿用 LGPL-3.0-or-later，艺术资源沿用 CC BY-NC-SA 3.0。
 
@@ -62,3 +62,16 @@ NaN/无穷设定值被拒绝，交易次数与队列有上限。
 1.12.2 的物品显示名处理会先翻译裸键再添加 `.name`；原生成器同时保留两种键，导致中文名称后仍出现 `.name`。
 现在只生成物品的 `.name` 键，并在真实中英文客户端检查全部 35 个物品/方块显示名。
 UI 贴图的字节保持上游原样；JSON 只映射命名空间，校验同时保留原始与映射后的哈希。
+
+## 改名后的渲染资源兼容
+
+`1.0.9-cleanroom.4` 将内容注册名与渲染路径分开。物品、方块状态映射、驱动器元件、P2P 与 GUI
+继续读取原始 `appliedpneumatics` 渲染路径，同时在成品中保留 `ae2s-appliedpneumatics` 下的对应资源。
+`tools/generate-resource-aliases.py` 在构建时生成旧命名空间的模型、贴图与方块状态，二进制贴图保持原样，
+JSON 中的自有资源引用同步转换。配方、语言、Ponder、注册 ID 和存档写入仍使用新 Mod ID。
+主包和源码 Jar 都由 `tools/verify-packaged-resources.py` 检查两套资源完整性。
+
+实际客户端逐项检查全部 35 个物品、12 个方块状态、10 档驱动器元件和两类 P2P 的模型、面与 atlas sprite，
+并检查新旧命名空间的 70 个物品模型；资源重载后重复检查，另保存全物品渲染截图。
+此前 `.3` 包在独立环境、VintageFix、VintageFix + StellarCore 的定点检查中未复现全量缺材质；
+本次兼容修正覆盖了上版缺少旧资源路径的问题，不将这些定点检查当作用户整合包问题已经复现的证据。

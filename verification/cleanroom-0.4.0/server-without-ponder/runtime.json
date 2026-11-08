@@ -4,10 +4,10 @@
   "userdev": false,
   "installer_sha256": "882435d851a51e14b802e0a9384e4a05cfbb3890fca435c40c494af75e5a166f",
   "jars": {
-    "AE2S-AppliedPneumatics-1.0.9-cleanroom.3.jar": "b0814d9f10e09fce0ccb3b789c9080db488b8193cf748501571128a5e876e6db",
+    "AE2S-AppliedPneumatics-1.0.9-cleanroom.4.jar": "82b6e90d4901e5d37be035fef79dc4c5f6167a6b8287139d1add95a49ea49f43",
     "AppliedEnergistics2-Supergiant-1.1.0+a47dfe029.jar": "7d82003578a820bf3dce121d98fd08911c8e5dcbe558e6158f6cc18558e98233",
     "pneumaticcraft-repressurized-281849-2978408.jar": "60f89392326325db7228dc96c3ef6285bcd475f7a067755488be2bf6acbdb78a",
-    "applied-pneumatics-verification.jar": "6f5a01f64ce931351996cf782d769ea8c89207bb744c4014a17f802ff1473932"
+    "applied-pneumatics-verification.jar": "ce114df3064cdf5946c4fba3de3c8b933ed9fbe03f13daad1cee32824cb8094e"
   },
   "libraries": {
     "/home/yudream/code/mods/.dev/ae2-addons-cleanroom-0.4.0-runtime/libraries/com/cleanroommc/cleanroom/0.4.0/cleanroom-0.4.0.jar": "2b697f6538c4d893ddbd876eb02d9ea55743a4f8",

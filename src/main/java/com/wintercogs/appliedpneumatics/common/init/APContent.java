@@ -44,6 +44,7 @@ public final class APContent {
         @Override public ItemStack createIcon(){return CELLS.isEmpty()?new ItemStack(net.minecraft.init.Items.IRON_INGOT):new ItemStack(CELLS.getFirst());}
     };
     public static ResourceLocation id(String path){return new ResourceLocation(AppliedPneumatics.MODID,path);}
+    public static ResourceLocation renderId(String path){return new ResourceLocation(AppliedPneumatics.PREVIOUS_RESOURCE_NAMESPACE,path);}
     private static <T extends Item>T item(T item,String name){item.setRegistryName(id(name));item.setTranslationKey(AppliedPneumatics.MODID+"."+name);item.setCreativeTab(TAB);ITEMS.add(item);return item;}
     private static MachineBlock block(Class<? extends MachineTile> tile,String name){var b=new MachineBlock(tile);b.setRegistryName(id(name));b.setTranslationKey(AppliedPneumatics.MODID+"."+name);b.setCreativeTab(TAB);BLOCKS.add(b);GameRegistry.registerTileEntity(tile,id(name));return b;}
     @SubscribeEvent public static void blocks(RegistryEvent.Register<Block> event){

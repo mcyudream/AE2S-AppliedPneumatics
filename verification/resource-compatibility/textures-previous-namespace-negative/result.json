@@ -1,0 +1,20 @@
+{
+  "cleanroom": "0.4.0",
+  "side": "client",
+  "exit": 0,
+  "loader_version_seen": true,
+  "server_ready": false,
+  "timed_out": false,
+  "gameplay_report": {
+    "result": "FAIL",
+    "cleanroom": "0.4.0",
+    "java": "25.0.5",
+    "ae2s": "1.1.0+a47dfe029",
+    "pneumaticcraft": "1.12.2-0.11.15-398",
+    "ponder": false,
+    "phase": 0,
+    "checks": [],
+    "failure": "net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model appliedpneumatics:item/me_pressure_interface_block with loader VanillaLoader.INSTANCE, skipping\n\tat net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161)\n\tat com.wintercogs.appliedpneumatics.verification.ModelVerification.verify(ModelVerification.java:55)\n\tat com.wintercogs.appliedpneumatics.verification.ClientVerification.tick(ClientVerification.java:100)\n\tat net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:79)\n\tat net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:204)\n\tat net.minecraftforge.fml.common.FMLCommonHandler.onPostClientTick(FMLCommonHandler.java:360)\n\tat net.minecraft.client.Minecraft.func_71407_l(Minecraft.java:1932)\n\tat net.minecraft.client.Minecraft.func_71411_J(Minecraft.java:1088)\n\tat net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:399)\n\tat net.minecraft.client.main.Main.main(SourceFile:123)\n\tat top.outlands.foundation.LaunchHandler.launch(LaunchHandler.java:125)\n\tat top.outlands.foundation.boot.Foundation.main(Foundation.java:42)\nCaused by: java.io.FileNotFoundException: appliedpneumatics:models/item/me_pressure_interface_block.json\n\tat net.minecraft.client.resources.SimpleReloadableResourceManager.func_110536_a(SimpleReloadableResourceManager.java:71)\n\tat net.minecraft.client.renderer.block.model.ModelBakery.func_177594_c(ModelBakery.java:384)\n\tat net.minecraftforge.client.model.ModelLoader.access$700(ModelLoader.java:116)\n\tat net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:862)\n\tat net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157)\n\t... 11 more\n"
+  },
+  "result": "FAIL"
+}

@@ -20,7 +20,7 @@ public class AmadronWirelessTerminalGUI extends APUpgradeableScreen
     private final AEConfig config=AEConfig.instance();
 
     // 背景纹理
-    private static final ResourceLocation BG_TEX = APContent.id("textures/gui/amadron_wireless_terminal.png");
+    private static final ResourceLocation BG_TEX = APContent.renderId("textures/gui/amadron_wireless_terminal.png");
 
     // 背景切片（基于 BG_TEX 的 UV 与尺寸）
     private static final UVBounds HEADER = new UVBounds(0, 0, 195, 18);

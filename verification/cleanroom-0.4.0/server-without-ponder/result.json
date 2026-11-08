@@ -34,11 +34,11 @@
     "buffer": "{Size:18,Items:[]}",
     "drones": [
       {
+        "id": 13213,
         "dead": false,
         "x": 1.2,
         "y": 81.0,
-        "z": 4.2,
-        "id": 13213
+        "z": 4.2
       }
     ],
     "fixture": {
@@ -50,7 +50,7 @@
       "power_ready": true,
       "power_active": true,
       "power_is_current_tile": true,
-      "phase_ticks": 507
+      "phase_ticks": 493
     }
   },
   "result": "FUNCTIONAL_PASS"

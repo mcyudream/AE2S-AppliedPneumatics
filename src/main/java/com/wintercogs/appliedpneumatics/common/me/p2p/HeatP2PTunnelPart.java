@@ -14,7 +14,7 @@ import net.minecraft.world.IBlockAccess;
 import java.util.*;
 
 public final class HeatP2PTunnelPart extends P2PTunnelPart<HeatP2PTunnelPart> {
-    private static final P2PModels MODELS = new P2PModels(new ResourceLocation("ae2s-appliedpneumatics", "part/p2p/p2p_tunnel_heat"));
+    private static final P2PModels MODELS = new P2PModels(com.wintercogs.appliedpneumatics.common.init.APContent.renderId("part/p2p/p2p_tunnel_heat"));
     private final IHeatExchangerLogic adapter = new Adapter();
     private boolean querying;
     public HeatP2PTunnelPart(IPartItem<?> item) { super(item); }

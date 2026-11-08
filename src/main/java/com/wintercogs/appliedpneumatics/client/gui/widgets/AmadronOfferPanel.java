@@ -15,7 +15,7 @@ import java.util.*;
 
 /** Upstream's 79x22 card, UVs, scaled counts, tooltips, and mouse-button cart rules. */
 public final class AmadronOfferPanel extends GuiButton {
-    private static final ResourceLocation BG=APContent.id("textures/gui/amadron_wireless_terminal.png");
+    private static final ResourceLocation BG=APContent.renderId("textures/gui/amadron_wireless_terminal.png");
     private static final int PANEL_W=79,PANEL_H=22,IN_ICON_X=3,OUT_ICON_X=60,ICON_Y=3;
     private static final float TEXT_SCALE=.666f,TEXT_Z=300;
     private final AmadronOfferSnapshot offer;

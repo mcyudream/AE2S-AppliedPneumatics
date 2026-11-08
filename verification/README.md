@@ -1,7 +1,8 @@
 # 正式 Cleanroom 0.4.0 验收
 
-最终安装包：`AE2S-AppliedPneumatics-1.0.9-cleanroom.3.jar`  
-SHA-256：`b0814d9f10e09fce0ccb3b789c9080db488b8193cf748501571128a5e876e6db`
+最终安装包：`AE2S-AppliedPneumatics-1.0.9-cleanroom.4.jar`
+
+SHA-256：`82b6e90d4901e5d37be035fef79dc4c5f6167a6b8287139d1add95a49ea49f43`
 
 全部场景运行官方 **Cleanroom 0.4.0 正式版（不带 -alpha）**，Java 25.0.5、
 固定 AE2S `1.1.0+a47dfe029` 和 PNC `1.12.2-0.11.15-398`。
@@ -9,8 +10,8 @@ SHA-256：`b0814d9f10e09fce0ccb3b789c9080db488b8193cf748501571128a5e876e6db`
 
 | 场景 | 功能检查数 | 结果 |
 | --- | ---: | --- |
-| client-with-ponder | 37 | FUNCTIONAL_PASS |
-| client-without-ponder | 31 | FUNCTIONAL_PASS |
+| client-with-ponder | 40 | FUNCTIONAL_PASS |
+| client-without-ponder | 34 | FUNCTIONAL_PASS |
 | server-with-ponder | 10 | FUNCTIONAL_PASS |
 | server-without-ponder | 10 | FUNCTIONAL_PASS |
 
@@ -21,6 +22,8 @@ PNC 原版充气站对超过 2³¹ mL 元件的持续充气、无线电池升级
 
 客户端在相同真实世界中完成上述检查，并逐项验证全部 35 个物品/方块的中英文显示名，
 确认不含多余 `.name` 后缀；旧机器 ID 与旧空气资源类型的存档读取也经过检查。
+逐项检查 35 个物品、12 个方块状态、10 档驱动器元件、两类 P2P 的真实烘焙模型与 atlas sprite，
+并验证新旧命名空间的 70 个物品模型；资源重载后再次检查，保存全物品渲染截图。
 随后通过真实鼠标事件、槽位点击和网络包验证
 原版压力/温度按钮、普通/扩展处理站槽位、优先级子界面返回、中文商品搜索、购物篮、
 空白样板编码、提交后真实送货、终端高度切换和样板槽持久化、便携终端三行上限。

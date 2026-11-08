@@ -14,6 +14,8 @@
     "ponder": true,
     "phase": 8,
     "checks": [
+      "Actual baked models and atlas sprites: 35 items, 12 block states, 10 drive cells, 2 P2P models and 70 old/new resource aliases after initial-load",
+      "Rendered all-item-textures.png without OpenGL errors",
       "Previous saved air resource and pressure tile IDs resolve to the renamed mod",
       "All 20 cells: long capacity, 256M pressure, nonmutating simulation, exact monitor deltas, vacuum and key serialization",
       "Original PNC charging station continues charging a 16M portable cell beyond 2^31 mL",
@@ -29,6 +31,7 @@
       "Original pressure UI: +1/+0.1 buttons, live air/volume/pressure, server state",
       "Rendered pressure-en_us.png without OpenGL errors",
       "All 35 registered items/blocks have exact translated display names without .name suffix in zh_cn",
+      "Actual baked models and atlas sprites: 35 items, 12 block states, 10 drive cells, 2 P2P models and 70 old/new resource aliases after resource-reload",
       "Rendered pressure-zh_cn.png without OpenGL errors",
       "Original temperature UI: Celsius display, +10/+1 controls, Kelvin backend synchronization",
       "Rendered temperature-zh_cn.png without OpenGL errors",
@@ -61,23 +64,23 @@
     "buffer": "{Size:18,Items:[]}",
     "drones": [
       {
-        "x": 9.100000000000001,
-        "dead": false,
-        "id": 126061,
-        "z": 4.5,
-        "y": 16.33
+        "id": 124924,
+        "z": 3.5,
+        "y": 22.130000000000017,
+        "x": 3.3999999999999995,
+        "dead": false
       }
     ],
     "fixture": {
-      "controller_block": "ae2:controller",
-      "power_block": "ae2:creative_energy_cell",
-      "ready_nodes": 14,
-      "ticks": 1575,
       "phase_ticks": 400,
       "power_is_current_tile": true,
       "power_active": true,
       "power_ready": true,
-      "active_nodes": 14
+      "active_nodes": 14,
+      "controller_block": "ae2:controller",
+      "power_block": "ae2:creative_energy_cell",
+      "ready_nodes": 14,
+      "ticks": 1575
     }
   },
   "result": "FUNCTIONAL_PASS"

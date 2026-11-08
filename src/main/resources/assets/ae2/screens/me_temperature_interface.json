@@ -6,7 +6,7 @@
     "common/toolbox.json"
   ],
   "background": {
-    "texture": "ae2s-appliedpneumatics:textures/gui/me_temperature_interface_menu.png",
+    "texture": "appliedpneumatics:textures/gui/me_temperature_interface_menu.png",
     "textureWidth": 256,
     "textureHeight": 256,
     "srcRect": [0, 0, 176, 207]

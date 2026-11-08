@@ -5,7 +5,7 @@
     "amadron_terminal_toolbox.json"
   ],
   "background": {
-    "texture": "ae2s-appliedpneumatics:textures/gui/amadron_wireless_terminal.png",
+    "texture": "appliedpneumatics:textures/gui/amadron_wireless_terminal.png",
     "textureWidth": 512,
     "textureHeight": 512,
     "srcRect": [195, 0, 195, 270]

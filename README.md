@@ -8,7 +8,7 @@
 将压缩空气存储、稳压温控和亚马龙交易自动化接入 ME 网络。
 
 面向 **Minecraft 1.12.2 / Cleanroom 0.4.0 正式版 / Java 25**。
-仓库名为 `AE2S-AppliedPneumatics`，Mod ID 与资源命名空间为 `ae2s-appliedpneumatics`。
+仓库名为 `AE2S-AppliedPneumatics`，Mod ID 为 `ae2s-appliedpneumatics`。
 
 ## 功能概览
 
@@ -23,7 +23,7 @@
 ## 安装
 
 从 [Releases](https://github.com/mcyudream/AE2S-AppliedPneumatics/releases) 下载
-`AE2S-AppliedPneumatics-1.0.9-cleanroom.3.jar`，客户端与服务器均放入 `mods`。
+`AE2S-AppliedPneumatics-1.0.9-cleanroom.4.jar`，客户端与服务器均放入 `mods`。
 
 | 依赖 | 验证版本 |
 | --- | --- |
@@ -80,6 +80,11 @@ Shift 可十倍调整。网络需要同时提供空气与 AE 能量。
 
 界面沿用上游原版贴图、布局、控件位置和交互；样式文件仅替换资源命名空间。
 [查看实机截图](verification/cleanroom-0.4.0/client-without-ponder/gameplay/screenshots/wireless-cart-pattern-zh_cn.png)。
+
+`1.0.9-cleanroom.4` 补齐改名前后的完整渲染资源，并将物品、方块、驱动器元件、P2P 与界面贴图
+绑定到稳定的原始资源路径。新 Mod ID 保持不变；旧资源路径 `appliedpneumatics` 仅用于渲染兼容，
+不会注册第二套物品或配方。升级时替换旧 Jar，完整退出客户端后再启动。
+[全部物品材质截图与自查记录](verification/resource-compatibility/README.md)。
 
 1M–256M 元件与扩展处理站使用本项目提供的合成路线，无需现代版 MEGA Cells 或 ExtendedAE。
 高阶普通元件由四个上一级空元件和 MEGA 空气外壳合成，便携版另加 ME 箱子和能量元件；
